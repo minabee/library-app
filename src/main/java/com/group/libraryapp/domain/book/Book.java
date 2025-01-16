@@ -5,6 +5,7 @@ import javax.persistence.*;
 @Entity
 public class Book {
 
+    //Book
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id = null;
